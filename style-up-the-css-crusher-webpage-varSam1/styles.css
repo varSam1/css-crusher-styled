@@ -9,7 +9,7 @@
 .title-class {
      color: #66545e;
      text-align: center;
-     font-size: 4vw;
+     font-size: 2vw;
 }
 .nav-class {
      background-color: #d59a2373;
@@ -22,8 +22,8 @@
 .nav-link-class {
      color: #493440;
      text-decoration: none;
-     padding: 50px;
-     font-size: 2.5vw;
+     padding: 15px;
+     font-size: 1vw;
 }
 /* End of Header */
 
@@ -35,20 +35,21 @@
 }
 .section-title-class {
      color: #420420;
-     font-size: 3vw;
+     font-size: 1.2vw;
 }
 
 .text-class {
      font-family: Arial, Helvetica, sans-serif;
      color: #03424a;
      font-weight: 400;
-     font-size: 2vw;
+     font-size: 1vw;
 }
 section {
      margin-bottom: 35px;
 }
 .image-class {
      max-width: 100%;
+     width: 40%;
      height: auto;
      border: 5px solid #66545e;
      margin-left: auto;
@@ -56,23 +57,23 @@ section {
      display: block;
 }
 .cite-class {
-     font-size: 2vw;
+     font-size: 1vw;
 }
 .faq-class {
      margin-left: 3%;
 }
 .faq-question-class {
-     font-size: 2.25vw;
+     font-size: 1.25vw;
      color:#67364c;
 }
 /* Form */
 .form-class {
      font-family: Arial, Helvetica, sans-serif;
-     font-size: 2vw;
+     font-size: 1vw;
      color: #114a51;
 }
 .input-class {
-     font-size: 2vw;
+     font-size: 1vw;
      color: #114a51;
      font-family: Arial, Helvetica, sans-serif;
      margin-top: 5px;
@@ -84,7 +85,7 @@ section {
      background-color: #114a51;
      color: #faebd7;
      border: none;
-     font-size: 2vw;
+     font-size: 1vw;
 }
 /* End of Form */
 /* End of Body */
