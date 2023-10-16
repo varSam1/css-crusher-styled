@@ -9,7 +9,7 @@
 .title-class {
      color: #66545e;
      text-align: center;
-     font-size: 4vw;
+     font-size: 2.5vw;
 }
 .nav-class {
      background-color: #d59a2373;
@@ -22,8 +22,8 @@
 .nav-link-class {
      color: #493440;
      text-decoration: none;
-     padding: 10px;
-     font-size: 2.5vw;
+     padding: 50px;
+     font-size: 1.75vw;
 }
 /* End of Header */
 
@@ -35,14 +35,14 @@
 }
 .section-title-class {
      color: #420420;
-     font-size: 3vw;
+     font-size: 2vw;
 }
 
 .text-class {
      font-family: Arial, Helvetica, sans-serif;
      color: #03424a;
      font-weight: 400;
-     font-size: 2vw;
+     font-size: 1.5vw;
 }
 section {
      margin-bottom: 35px;
@@ -56,13 +56,13 @@ section {
      display: block;
 }
 .cite-class {
-     font-size: 2vw;
+     font-size: 1.5vw;
 }
 .faq-class {
      margin-left: 3%;
 }
 .faq-question-class {
-     font-size: 2.25vw;
+     font-size: 2vw;
      color:#67364c;
 }
 /* Form */
@@ -72,7 +72,7 @@ section {
      color: #114a51;
 }
 .input-class {
-     font-size: 2vw;
+     font-size: 1.75vw;
      color: #114a51;
      font-family: Arial, Helvetica, sans-serif;
      margin-top: 5px;
@@ -109,4 +109,113 @@ section {
 #gallery-page {
      padding: 10px;
      margin-bottom: 10px;
+}
+
+@media only screen and (max-width:768px) {
+     /* Header */
+.header-class {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     position: sticky;
+     top: 0px;
+     display: block;
+     background-color: #faebd7;
+}
+.title-class {
+     color: #66545e;
+     text-align: center;
+     font-size: 4vw;
+}
+.nav-class {
+     background-color: #d59a2373;
+     padding: 15px;
+     text-align: center;
+}
+.active {
+     font-weight: 700;
+}
+.nav-link-class {
+     color: #493440;
+     text-decoration: none;
+     padding: 10px;
+     font-size: 2.5vw;
+}
+/* End of Header */
+
+/* Body */
+.body-class {
+     background-color: #faebd7;
+     margin-left: 1%;
+     margin-right: 1%;
+}
+.section-title-class {
+     color: #420420;
+     font-size: 3vw;
+}
+
+.text-class {
+     font-family: Arial, Helvetica, sans-serif;
+     color: #03424a;
+     font-weight: 400;
+     font-size: 2.5vw;
+}
+section {
+     margin-bottom: 35px;
+}
+.image-class {
+     max-width: 80%;
+     height: auto;
+     border: 5px solid #66545e;
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+}
+.cite-class {
+     font-size: 2/25vw;
+}
+.faq-class {
+     font-size: 2vw;
+}
+.faq-question-class {
+     font-size: 2.5vw;
+     color:#67364c;
+}
+/* Form */
+.form-class {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 2.5vw;
+     color: #114a51;
+}
+.input-class {
+     font-size: 2.5vw;
+     color: #114a51;
+     font-family: Arial, Helvetica, sans-serif;
+     margin-top: 5px;
+     margin-bottom: 5px;
+}
+.button-class {
+     padding: 10px;
+     margin-top: 10px;
+     background-color: #114a51;
+     color: #faebd7;
+     border: none;
+     font-size: 2.5vw;
+}
+/* End of Form */
+/* End of Body */
+
+/* Footer */
+.footer-class {
+     background-color:#cea25d;
+     text-align: center;
+     position: relative;
+     right: 0px;
+     left: 0px;
+     bottom: 0px;
+     padding: 10px;
+     display: block;
+}
+#footer-text {
+     color: #00008b;
+}
+/* End of Footer */
 }
