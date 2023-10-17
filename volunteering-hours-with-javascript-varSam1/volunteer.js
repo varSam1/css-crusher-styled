@@ -36,11 +36,11 @@ volunteerName = "Samantha";
 //8. Create a variable 'volunteerStatusMessage' that holds the message "met the goal" if the total volunteer hours surpass the minimum volunteer hours, or "did not meet the goal" otherwise. Feel free to use conditionals in this task.
 minimumHoursMet = checkHours(totalHours, minimumVolunteerHours);
 
-let volunteerStatusMessage = "did not meet the goal";
+let volunteerStatusMessage = "not meet the goal";
 if(minimumHoursMet)
      volunteerStatusMessage = "met the goal"
 else
-     volunteerStatusMessage = "did not meet the goal"
+     volunteerStatusMessage = "not meet the goal"
 
 //9. Console.log the following message: "<volunteerName> volunteered for <hoursMonday>, <hoursTuesday>, <hoursWednesday>, <hoursThursday>, <hoursFriday>, <hoursSaturday> hours respectively and their total contribution is <totalHours> hours."
 console.log(volunteerName+" volunteered for "+hoursMonday+", "+hoursTuesday+", "+hoursWednesday+", "+hoursThursday+", "+hoursFriday+", "+hoursSaturday+" hours respectively and her total contribution is "+totalHours+" hours.");
